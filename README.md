@@ -1,4 +1,4 @@
-# 🐾 AdoptMe API
+# Sistema de gestión de usuarios, mascotas y adopciones 🐾
 
 API RESTful para la gestión de usuarios, mascotas y adopciones. Desarrollada con Node.js, Express, MongoDB y autenticación JWT mediante cookies.
 
