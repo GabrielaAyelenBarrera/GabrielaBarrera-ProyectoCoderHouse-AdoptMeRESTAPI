@@ -213,7 +213,7 @@ A continuación se muestran ejemplos de respuestas obtenidas al consumir los pri
     "pets": []
   }
 ]
-
+```
 ### GET /api/pets
 ```json
 [
@@ -225,7 +225,7 @@ A continuación se muestran ejemplos de respuestas obtenidas al consumir los pri
     "owner": "67e6fd2f4c958cefdbbca2bf"
   }
 ]
-
+```
 ### GET /api/adoptions
 ```json
 [
@@ -235,6 +235,7 @@ A continuación se muestran ejemplos de respuestas obtenidas al consumir los pri
     "pet": "67e6fd2f4c958cefdbbca2c1"
   }
 ]
+```
 
 Incluida en el repo: [`Ducumentación`](./src/docs/Users.yaml)
 
