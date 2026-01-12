@@ -19,9 +19,9 @@ API RESTful para la gestión de usuarios, mascotas y adopciones. Desarrollada co
 ## 📦 Instalación
 
 ```bash
-git clone https://github.com/GabrielaBarrera/GabrielaBarrera-ProyectoCoderHouse-AdoptMeRESTAPI.git
-cd GabrielaBarrera-ProyectoCoderHouse-AdoptMeRESTAPI
-npm install
+- git clone https://github.com/GabrielaBarrera/GabrielaBarrera-ProyectoCoderHouse-AdoptMeRESTAPI.git
+- cd GabrielaBarrera-ProyectoCoderHouse-AdoptMeRESTAPI
+- npm install
 ```
 
 ---
@@ -31,8 +31,9 @@ npm install
 Creá un archivo `.env` en la raíz con las siguientes variables:
 
 ```
-MONGO_URL=mongodb+srv://gbarrera:coderhouse@cluster0.eetr1.mongodb.net/adoptme?retryWrites=true&w=majority&appName=Cluster0
+MONGO_URL=mongodb+srv://gbarrera:coderhouse@cluster0.eetr1.mongodb.net/adoptmeDEV?retryWrites=true&w=majority&appName=Cluster0
 PORT=8080
+
 ```
 
 ---
@@ -77,7 +78,8 @@ Algunas rutas requieren autenticación mediante token o cookie (`coderCookie`). 
 | PUT    | `/api/users/:uid`  | Actualizar un usuario por ID    |
 | DELETE | `/api/users/:uid`  | Eliminar un usuario por ID      |
 
-📌 *Documentado con Swagger en `/api-docs`.*
+📌 *El módulo **Users** se encuentra documentado con Swagger en `/api-docs`.*
+
 
 ---
 
@@ -196,11 +198,45 @@ node --test tests/sessions.test.js
 
 ---
 
-## 📬 Postman Collection
+## 📬 Ejemplos de uso de la API
+A continuación se muestran ejemplos de respuestas obtenidas al consumir los principales endpoints del proyecto.
+
+### GET /api/users
+```json
+[
+  {
+    "_id": "67e6fd2f8f804c6d2306b390",
+    "first_name": "Updated",
+    "last_name": "User",
+    "email": "testuser@example.com",
+    "role": "user",
+    "pets": []
+  }
+]
+
+### GET /api/pets
+```json
+[
+  {
+    "_id": "67e6fd2f4c958cefdbbca2c1",
+    "name": "AdoptionPet",
+    "specie": "Gato",
+    "adopted": true,
+    "owner": "67e6fd2f4c958cefdbbca2bf"
+  }
+]
+
+### GET /api/adoptions
+```json
+[
+  {
+    "_id": "67e6fd2f4c958cefdbbca2c7",
+    "owner": "67e6fd2f4c958cefdbbca2bf",
+    "pet": "67e6fd2f4c958cefdbbca2c1"
+  }
+]
 
 Incluida en el repo: [`Ducumentación`](./src/docs/Users.yaml)
-
-Importala en Postman para probar con Swagger el módulo de “Users” con ejemplos de requests.
 
 ---
 
