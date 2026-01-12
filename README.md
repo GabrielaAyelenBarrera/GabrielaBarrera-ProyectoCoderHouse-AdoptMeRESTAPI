@@ -1,4 +1,4 @@
-# Sistema de gestión de usuarios, mascotas y adopciones 🐾
+# Sistema de gestión de adopciones 🐾
 
 API RESTful para la gestión de usuarios, mascotas y adopciones. Desarrollada con Node.js, Express, MongoDB y autenticación JWT mediante cookies.
 
