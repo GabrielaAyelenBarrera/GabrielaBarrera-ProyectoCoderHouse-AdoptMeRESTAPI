@@ -19,8 +19,8 @@ API RESTful para la gestión de usuarios, mascotas y adopciones. Desarrollada co
 ## 📦 Instalación
 
 ```bash
-git clone https://github.com/tuusuario/adoptme-api.git
-cd adoptme-api
+git clone https://github.com/GabrielaBarrera/GabrielaBarrera-ProyectoCoderHouse-AdoptMeRESTAPI.git
+cd GabrielaBarrera-ProyectoCoderHouse-AdoptMeRESTAPI
 npm install
 ```
 
@@ -208,7 +208,7 @@ Importala en Postman para probar con Swagger el módulo de “Users” con ejemp
 
 Podés correr el proyecto directamente desde Docker usando la imagen publicada:
 
-👉 Imagen en DockerHub:  
+👉 Imagen en DockerHub (Proyecto final CoderHouse):
 [docker.io/gabriellabarrera/proyectofinal](https://hub.docker.com/repository/docker/gabriellabarrera/proyectofinal)
 
 ### Ejecutar la imagen localmente
