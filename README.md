@@ -29,7 +29,7 @@ cd backend-coderhouse-modulo3
 ### 2️⃣ Instalar dependencias
 
 ```bash
-- npm install
+npm install
 ```
 
 ---
