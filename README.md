@@ -18,9 +18,17 @@ API RESTful para la gestión de usuarios, mascotas y adopciones. Desarrollada co
 
 ## 📦 Instalación
 
+### 1️⃣ Clonar el repositorio
+
 ```bash
-- git clone https://github.com/GabrielaBarrera/GabrielaBarrera-ProyectoCoderHouse-AdoptMeRESTAPI.git
-- cd GabrielaBarrera-ProyectoCoderHouse-AdoptMeRESTAPI
+git clone https://github.com/GabrielaAyelenBarrera/backend-coderhouse-modulo3.git
+cd backend-coderhouse-modulo3
+```
+---
+
+### 2️⃣ Instalar dependencias
+
+```bash
 - npm install
 ```
 
